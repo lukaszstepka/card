@@ -9,21 +9,33 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <section class="card">
-      <h1 class="card__name">Łukasz Stępka</h1>
-      <p class="card__positon">frontend developer</p>
-      <p class="card__description">
-        Programista z kilkunastoletnim doświadczeniem, fotograf, operator drona,
-        właściciel Sokoła Millennium (na razie tylko z Lego), prelegent i
-        szkoleniowiec. Uwielbia eksperymentować z nowymi technologiami, w swojej
-        twórczości ocierając się o sztukę. W sieci: Facebook, GitHub, Instagram.
-      </p>
-      <p class="card__internet">
-          W sieci: <a href="#" class="card__internet--link">Facebook</a>
-          <a href="#" class="card__internet--link">GitHub</a>
-          <a href="#" class="card__internet--link">Instagram</a>
-    </p>
-    
-    </section>
+    <main class="main">
+      <article class="card"> 
+        <img
+          src="avatar.svg"
+          alt="Zdjęcie człowieka na wizytówce"
+          class="card__img"
+        />
+        <div>
+        <h1 class="card__name">Łukasz Stępka</h1>
+        <p class="card__positon">frontend developer</p>
+        <p class="card__description">
+          Programista z
+          <span class="special__orangeLink"
+            >kilkunastoletnim doświadczeniem</span
+          >, fotograf, operator drona, właściciel Sokoła Millennium (na razie
+          tylko z Lego),
+          <span class="special__orangeLink">prelegent i szkoleniowiec</span>.
+          Uwielbia eksperymentować z nowymi technologiami, w swojej twórczości
+          ocierając się o sztukę.
+        </p>
+        <p class="card__internet">
+          W sieci: <a href="#" class="card__internet--link">Facebook</a>,
+          <a href="#" class="card__internet--link">GitHub</a>,
+          <a href="#" class="card__internet--link">Instagram</a>.
+        </p>
+    </div>
+      </article>
+    </main>
   </body>
 </html>
